@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+venv/
+.env
+
+# Datasets (optional)
+*.csv
+!Question_bank_Datasets/*.csv
+!Quiz_history&performance_logs/quiz_history.csv
+
+# OS files
+.DS_Store
+Thumbs.db
